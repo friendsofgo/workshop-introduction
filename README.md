@@ -38,7 +38,7 @@ The dependencies needed are:
 
 ### Exercises
 
-** 1. Sorting Numbers**
+**1. Sorting Numbers**
 
 The first exercise basically consists on implementing a function to sort numbers:
 
@@ -49,7 +49,7 @@ func Nums(unsortedNums []int) []int {
 }
 ``` 
 
-** 2. Stupid Cache**
+**2. Stupid Cache**
 
 The second exercise let you do your own implementation of an stupid cache to satisfy the given cache interface:
 
@@ -60,12 +60,12 @@ type StupidCache interface {
 }
 ```
 
-** 3. Benchmarking & Profiling**
+**3. Benchmarking & Profiling**
 
 The third exercise is focused on benchmarking and profiling the `Marshal` and `Unmarshal` functions of 
 the `encoding/json` package.
 
-** 4. Concurrent Quiz**
+**4. Concurrent Quiz**
 
 This fourth (and the last) exercise consists on adding concurrency on a quiz simple application in order
 to extend it and make it more funny.
