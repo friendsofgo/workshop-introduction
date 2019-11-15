@@ -1,7 +1,7 @@
 package cache
 
-type myOwnStupidCache struct {}
+type MyOwnStupidCache struct {}
 
-func New() myOwnStupidCache {
-	return myOwnStupidCache{}
+func New() MyOwnStupidCache {
+	return MyOwnStupidCache{}
 }
