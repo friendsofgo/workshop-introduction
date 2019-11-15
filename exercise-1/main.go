@@ -2,7 +2,7 @@ package main
 
 import (
 	"fmt"
-	"github.com/friendsofgo/workshop-introduction/exercise-1/sort"
+	"github.com/friendsofgo/workshop-introduction/exercise-1/swap"
 	"io/ioutil"
 	"strconv"
 	"strings"
@@ -13,8 +13,8 @@ const (
 )
 func main() {
 	numsFromFile := readNumsFromFile(filePath)
-	sortedNums := sort.Nums(numsFromFile)
-	fmt.Println(sortedNums)
+	swappedNums := swap.Nums(numsFromFile)
+	fmt.Println(swappedNums)
 }
 
 func readNumsFromFile(filePath string) []int {

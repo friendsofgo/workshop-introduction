@@ -38,14 +38,14 @@ The dependencies needed are:
 
 ### Exercises
 
-**1. Sorting Numbers**
+**1. Swapping Numbers**
 
-The first exercise basically consists on implementing a function to sort numbers:
+The first exercise basically consists on implementing a function to swap numbers:
 
 ```go
-func Nums(unsortedNums []int) []int {
-	// TODO: Sort numbers
-	return unsortedNums
+func Nums(nums []int) []int {
+	// TODO: Swap numbers
+	return nums
 }
 ``` 
 
